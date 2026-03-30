@@ -1,5 +1,11 @@
 package Head_First.Observer;
 
+import Head_First.Observer.displays.CurrentConditionsDisplay;
+import Head_First.Observer.displays.ForecastDisplay;
+import Head_First.Observer.displays.HeatIndexDisplay;
+import Head_First.Observer.displays.StatisticsDisplay;
+import Head_First.Observer.subject.WeatherData;
+
 public class Main {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();

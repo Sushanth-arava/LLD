@@ -1,4 +1,7 @@
-package Head_First.Observer;
+package Head_First.Observer.displays;
+
+import Head_First.Observer.interfaces.DisplayElement;
+import Head_First.Observer.interfaces.Observer;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
     private float maxTemp = Float.MIN_VALUE;

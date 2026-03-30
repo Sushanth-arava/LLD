@@ -1,4 +1,7 @@
-package Head_First.Observer;
+package Head_First.Observer.subject;
+
+import Head_First.Observer.interfaces.Observer;
+import Head_First.Observer.interfaces.Subject;
 
 import java.util.ArrayList;
 import java.util.List;
